@@ -23,4 +23,4 @@ Alternativamente, você pode baixar um *.zip* [aqui](https://github.com/saviocmc
 #### [Aula 02](aula02)
 
 Disciplina ofertada pelo [Departamento de Física (DF)](http://www.fisica.ufmg.br) do [Instituto de Ciências Exatas (ICEx)](http://www.icex.ufmg.br) da 
-[Universidade Federal de Minas Gerais (UFMG)](http://ufmg.br) e ministrada pelo professor [Gustavo A. Guerrero](http://www.fisica.ufmg.br/~guerrero).
+[Universidade Federal de Minas Gerais (UFMG)](http://ufmg.br) e ministrada pelo professor [Gustavo A. Guerrero](http://lilith.fisica.ufmg.br/~guerrero).
