@@ -8,7 +8,7 @@ http://lilith.fisica.ufmg.br/~guerrero/fis045.html
 O melhor método para ter acesso aos códigos é fazendo um clone deste repositório.
 Para isso:
 * Instale o programa [**git**](https://git-scm.com/downloads) no seu computador.
-* Entre em um terminal e digite ``git clone git@github.com:saviocmc/FIS045-2017-1.git fisica-computacional``
+* Entre em um terminal e digite ``git clone git@github.com:saviocmc/Fisica-Computacional-UFMG-FIS045-2018-1.git fisica-computacional``
 
 O repositório completo, com todos os arquivos, deve aparecer em uma pasta chamada fisica-computacional.
 
@@ -23,7 +23,7 @@ Alternativamente, você pode baixar um *.zip* [aqui](https://github.com/saviocmc
 #### [Aula 02](aula02)
 #### [Aula 03](aula03)
 
-
+<br/>
 
 Disciplina ofertada pelo [Departamento de Física (DF)](http://www.fisica.ufmg.br) do [Instituto de Ciências Exatas (ICEx)](http://www.icex.ufmg.br) da 
 [Universidade Federal de Minas Gerais (UFMG)](http://ufmg.br) e ministrada pelo professor [Gustavo A. Guerrero](http://lilith.fisica.ufmg.br/~guerrero).
