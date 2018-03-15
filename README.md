@@ -8,7 +8,7 @@ http://lilith.fisica.ufmg.br/~guerrero/fis045.html
 O melhor método para ter acesso aos códigos é fazendo um clone deste repositório.
 Para isso:
 * Instale o programa [**git**](https://git-scm.com/downloads) no seu computador.
-* Entre em um terminal e digite ``git clone git@github.com:saviocmc/Fisica-Computacional-UFMG-FIS045-2018-1.git fisica-computacional``
+* Entre em um terminal e digite ``git clone https://github.com/saviocmc/Fisica-Computacional-UFMG-FIS045-2018-1.git fisica-computacional``
 
 O repositório completo, com todos os arquivos, deve aparecer em uma pasta chamada fisica-computacional.
 
