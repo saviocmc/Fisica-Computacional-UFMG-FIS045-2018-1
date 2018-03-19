@@ -28,5 +28,4 @@
 
   * Escrita, compilação e execução do programa [hello.f90](hello.f90) em Fortran que calcula e imprime o seno de um dado número
   * Escrita e execução do programa [hello.py](hello.py) em Python que equivalente ao programa anterior em Fortran, que calcula também o cosseno
-  * Escrita de programa em Fortran que recebe como entrada um número inteiro no sistema decimal e se seguida calcula e mostra sua representação no sistema binário
   * Execução de programa que evidencia os casos de *overflow* de variáveis inteiras em Fortran
