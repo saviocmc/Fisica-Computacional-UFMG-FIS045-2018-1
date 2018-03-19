@@ -3,15 +3,14 @@
 
 PROGRAM hello
 
-	IMPLICIT NONE
-	REAL(KIND=8) :: r, s
-	WRITE(*,*) "Olá mundo!"
+  IMPLICIT NONE
+  REAL(KIND=8) :: r, s
+  WRITE(*,*) "Olá mundo!"
 
-    ! Pedir para um número ser digitado
-	WRITE(*,*) "Digite um número real: "
-	READ(*,*) r
-	s = sin(r);
-	WRITE(*,*) "O seno de ", r , " é ", s
+  ! Pedir para um número ser digitado
+  WRITE(*,*) "Digite um número real: "
+  READ(*,*) r
+  s = sin(r);
+  WRITE(*,*) "O seno de ", r , " é ", s
 
 END PROGRAM hello
-
