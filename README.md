@@ -12,11 +12,11 @@ Para isso:
 
 O repositório completo, com todos os arquivos, deve aparecer em uma pasta chamada fisica-computacional.
 
-Através do **git** é possível que você faça as alterações/melhorias que quiser em quaisquer arquivos e envie-os de volta a este repositório, compartilhando suas modificações com todos!
+Através do **git** é possível que você faça as alterações/melhorias que quiser em quaisquer arquivos e envie-os de volta a este repositório, compartilhando suas modificações.
 
-Sintam-se livres também para adicionar códigos interessantes que desenvolverem que forem relacionados à disciplina.
+Sinta-se livre também para adicionar códigos interessantes que desenvolver que forem relacionados à disciplina.
 
-Alternativamente, você pode baixar um *.zip* [aqui](https://github.com/saviocmc/FIS045-2017-1/archive/master.zip).
+Alternativamente, você pode baixar um *.zip* [aqui](https://github.com/saviocmc/Fisica-Computacional-UFMG-FIS045-2018-1/archive/master.zip).
 
 ### Códigos e notas de aula
 #### [Aula 01](aula01)
