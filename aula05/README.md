@@ -6,7 +6,7 @@
 	* Erros quando a diferença entre pontos da função é menor que a resolução da variável utilizada
 
 * Execução do programa [derivada-segunda-exp.f90](derivada-segunda-exp.f90) que calcula a derivada segunda da função exponencial *exp(x)* e calcula o erro relativo ao valor exato da derivada
-* *Plot* dos error relativos em função da ordem de grandeza do valor do delta finito *h* utilizando o [GnuPlot](http://gnuplot.info)
+* *Plot* dos error relativos em função da ordem de grandeza do valor do delta finito *h* utilizando o [gnuplot](http://gnuplot.info)
 
 
 ## Extrapolação Numérica
@@ -25,6 +25,6 @@
 
 * Operadores numéricos e lógicos em Python
 
-* Introdução ao [Numpy](http://www.numpy.org) e ao [Matplotlib](https://matplotlib.org/)i
+* Introdução ao [Numpy](http://www.numpy.org) e ao [Matplotlib](https://matplotlib.org/)
 
 * Reescrita do programa que calcular a segunda derivada de *exp(x)* em Python: [derivada-segunda-exp.py](derivada-segunda-exp.py)
