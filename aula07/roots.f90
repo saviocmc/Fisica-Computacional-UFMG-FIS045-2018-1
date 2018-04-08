@@ -1,4 +1,6 @@
 ! This program calculates the roots of cos(exp(x))'
+
+! @author Sávio Carlos Martins Costa
 program main
     implicit none
     real :: a, b, root, delta, i, f, bisection
