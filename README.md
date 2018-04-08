@@ -25,6 +25,7 @@ Alternativamente, você pode baixar um *.zip* [aqui](https://github.com/saviocmc
 #### [Aula 04](aula04)
 #### [Aula 05](aula05)
 #### [Aula 06](aula06)
+#### [Aula 07](aula07)
 
 <br/>
 
