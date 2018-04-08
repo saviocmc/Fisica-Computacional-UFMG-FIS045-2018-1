@@ -2,15 +2,14 @@
 program main
     implicit none
     real :: a, b, root, delta, i, f, bisection
-    logical :: valid_range 
+    logical :: valid_range
     parameter(delta=1e-5)
     write(*,*) 'Please insert values of the initial interval'
-    read(*,*) a, b 
+    read(*,*) a, b
     if(.not.valid_range(a, b)) stop
     root = bisection(a, b, delta, i)
-    write(*,*) 'Root is', root, 'with', i, 'interactions'
+    write(*,*) 'Root is', root, 'with', i, 'iterations'
 end program
-
 
 real pure function f(x)
     real, intent(in) :: x
@@ -22,10 +21,10 @@ logical function valid_range(a, b)
     real, intent(in) :: a, b
     valid_range = .false.
     if(a>=b) then
-        write(*,*) 'ERROR: b must be greater than a'
+        write(*,*) 'ERROR: final point must be greater than initial point'
         valid_range = .false.
     else if(f(a)*f(b)>0) then
-        write(*,*) 'ERROR: the interval has no roots (or an even number of roots)'
+        write(*,*) 'ERROR: the interval has no roots (or has an even number of roots)'
         valid_range = .false.
     else
         valid_range = .true.
