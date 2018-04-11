@@ -5,6 +5,10 @@ program main
     write(*,*) 'Insira o valor do limite inferior, do limite superior'
     write(*,*) 'e do número N de pontos a serem avaliados'
     read(*,*) a, b, N
+    if(mod(N,2)==0) then
+      write(*,*) 'O valor de N deve ser ímpar para a Regra de Simpson funcionar'
+      stop
+    end if
     write(*,*) 'Valor exato', integral_f(a, b)
     write(*,*) 'Regra do trapézio', integral_trapezio_f(a, b, N)
     write(*,*) 'Regra de Simpson', integral_simpson_f(a, b, N)
