@@ -5,4 +5,4 @@
 ## Métodos numéricos para encontrar raízes
   * Método da Bisseção
   * Método de Newton-Raphson
-  * Método da secante
+  * Método da Secante
