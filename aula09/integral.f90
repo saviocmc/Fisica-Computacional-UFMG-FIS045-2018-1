@@ -46,12 +46,17 @@ real function integral_simpson_f(a, b, N)
     real :: h
     h = (b-a)/(N-1)
     integral_simpson_f = (f(a)+f(b))*h
-    do i=0, (N-1)/2
-        integral_simpson_f = integral_simpson_f + 4*h*f(a+h*(1+2*i))
+    do i=1, (N-2)
+        integral_simpson_f = integral_simpson_f + h*f(a+h*i)*ishft(2,(AND(i,1)))
+        ! A expressão ishft(2,(AND(i,1))) retorna 2 se i for par e 4 se i for ímpar
+        ! que é o peso para cada termo da soma da regra de Simpson
     end do
-    do i=2, (N-3)/2
-        integral_simpson_f = integral_simpson_f + 2*h*f(a+h*(2*i))
-    end do
+    ! do i=0, (N-3)/2
+    !     integral_simpson_f = integral_simpson_f + 4*h*f(a+h*(1+2*i))
+    ! end do
+    ! do i=1, (N-3)/2
+    !     integral_simpson_f = integral_simpson_f + 2*h*f(a+h*(2*i))
+    ! end do
     integral_simpson_f = integral_simpson_f/3
     return
 end function
