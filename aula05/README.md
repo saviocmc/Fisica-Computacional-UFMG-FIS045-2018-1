@@ -1,6 +1,6 @@
 **2018-03-21** - Aula 05
 
-## Derivação Numérica utilizando a Série de Taylor
+## Diferenciação Numérica
 
 * Discussão das fontes de erro quando o delta finito utilizado é muito pequeno
 	* Erros quando a diferença entre pontos da função é menor que a resolução da variável utilizada
