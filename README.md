@@ -1,4 +1,4 @@
-Repositório criado para guardar os códigos desenvolvidos nas aulas da disciplina **FIS045 - Tópicos em Física C - Métodos Computacionais em Física**, do primeiro semestre de 2018.
+Repositório criado para guardar os códigos desenvolvidos nas aulas da disciplina **FIS045 - Tópicos em Física C - Métodos Computacionais em Física**, do primeiro semestre de 2018 ministrada pelo professor [Gustavo A. Guerrero](http://lilith.fisica.ufmg.br/~guerrero).
 
 Página criada pelo professor com a ementa e referências bibliográficas:
 http://lilith.fisica.ufmg.br/~guerrero/fis045.html
@@ -29,6 +29,7 @@ Alternativamente, você pode baixar um *.zip* [aqui](https://github.com/saviocmc
 #### [Aula 09](aula09)
 #### [Aula 10](aula10)
 #### [Aula 11](aula11)
+#### [Aula 12](aula12)
 
 <br/>
 
