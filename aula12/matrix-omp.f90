@@ -3,7 +3,6 @@ program main
     real, allocatable, dimension(:,:) :: a, b, c
     integer :: n, k, i, j
     real :: pi, s, alpha
-    character(len=10) :: format
     parameter(pi = 3.141592653589793)
 
     read(*,*) n
@@ -12,6 +11,7 @@ program main
     allocate(c(n,n))
     s = n**(-0.5)
 
+    !$omp parallel do
     do i=1, n
         do j=1, n
             alpha = 2*pi*(i-1)*(j-1)*s
@@ -19,7 +19,9 @@ program main
             c(i,j) = b(i,j)
         end do
     end do
+    !$omp end parallel do
 
+    !$omp parallel do
     do i=1, n
         do j=1, n
             a(i,j) = 0
@@ -28,19 +30,7 @@ program main
             end do
         end do
     end do
-
-    write (format, "(A1,I1,A6)") '(', n, 'F12.6)'
-    write(*,*) 'Matriz B:'
-    write(*,format) b
-    write(*,*)
-    write(*,*) 'Matriz C:'
-    write(*,format) c
-    write(*,*)
-    write(*,*) 'Matriz A = BxC'
-    write(*,format) a
-    write(*,*)
-    write(*,*) 'Matriz BxC com matmul:'
-    write(*,format) matmul(b,c)
+    !$omp end parallel do
 
     deallocate(a,b,c)
 
